@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/AppTheme"
+    android:layout_width="300dp"
+    android:layout_height="100dp"
+    android:background="@drawable/default_bg"
+    android:orientation="vertical" >
+<TableRow>
+    <EditText 
+        android:id="@+id/suggestIP"
+        android:layout_height="wrap_content"
+        android:layout_width="240dp"
+        android:textColor="@color/green"
+        android:editable="false"
+        android:hint="@string/perhapsIP"
+        />
+    <ImageButton
+            android:id="@+id/computer"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="#00000000"
+            android:scaleType="fitCenter"
+            android:src="@drawable/computer" />
+</TableRow>
+    <TableRow>
+
+        <AutoCompleteTextView
+            android:id="@+id/ipsetting"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/inputIP"
+            android:completionHint="请设定主机IP"
+            android:completionThreshold="1"
+            android:dropDownHorizontalOffset="20dp" >
+
+            <requestFocus />
+        </AutoCompleteTextView>
+
+        <ImageButton
+            android:id="@+id/testip"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="#00000000"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ipsetting" />
+    </TableRow>
+
+</TableLayout>

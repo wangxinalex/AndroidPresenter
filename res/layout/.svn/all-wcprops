@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/SimpleClient/!svn/ver/1/res/layout
+END
+activity_simple_client.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/SimpleClient/!svn/ver/8/res/layout/activity_simple_client.xml
+END
+setting.xml
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/SimpleClient/!svn/ver/6/res/layout/setting.xml
+END
+activity_touch_event.xml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/SimpleClient/!svn/ver/8/res/layout/activity_touch_event.xml
+END

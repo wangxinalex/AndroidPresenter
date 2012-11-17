@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/SimpleClient/!svn/ver/8/res/anim
+END
+in_from_left.xml
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/SimpleClient/!svn/ver/8/res/anim/in_from_left.xml
+END
+out_to_left.xml
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/SimpleClient/!svn/ver/8/res/anim/out_to_left.xml
+END
+in_from_right.xml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/SimpleClient/!svn/ver/8/res/anim/in_from_right.xml
+END
+out_to_right.xml
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/SimpleClient/!svn/ver/8/res/anim/out_to_right.xml
+END

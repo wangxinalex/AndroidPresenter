@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/default_bg"
+    android:orientation="vertical" >
+
+    <ImageButton
+        android:id="@+id/back"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#00000000"
+        android:scaleType="fitCenter"
+        android:src="@drawable/back" />
+
+    <TextView
+        android:id="@+id/touch_area"
+        android:layout_width="fill_parent"
+        android:layout_height="332dp"
+        android:background="#00000000"
+        android:textColor="#FFFFFF" >
+    </TextView>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/left"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:src="@drawable/left"
+            android:scaleType="fitCenter"
+            android:background="#00000000"
+            android:text="Left" />
+
+        <ImageButton
+            android:id="@+id/middle"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+             android:src="@drawable/middle"
+            android:scaleType="fitCenter"
+            android:background="#00000000"
+            android:text="Middle" />
+
+        <ImageButton
+            android:id="@+id/right"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+             android:src="@drawable/right"
+            android:scaleType="fitCenter"
+            android:background="#00000000"
+            android:text="Right" />
+    </LinearLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/sensitivityText"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:text="sensitivity"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/white"
+             />
+
+        <SeekBar
+            android:id="@+id/sensitivity"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:max="5"
+            android:progress="2" />
+    </LinearLayout>
+
+</LinearLayout>
